@@ -1,5 +1,6 @@
-package com.jaspercloud.redis.lock;
+package com.jaspercloud.redis.lock.impl;
 
+import com.jaspercloud.redis.lock.RedisLockSupport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataAccessException;

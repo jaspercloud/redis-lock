@@ -1,4 +1,4 @@
-package com.jaspercloud.redis.lock;
+package com.jaspercloud.redis.lock.serializer;
 
 import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.data.redis.serializer.RedisSerializer;

@@ -1,5 +1,7 @@
 package com.jaspercloud.redis.lock;
 
+import com.jaspercloud.redis.lock.impl.RedisLockImpl;
+import com.jaspercloud.redis.lock.serializer.LongRedisSerializer;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
